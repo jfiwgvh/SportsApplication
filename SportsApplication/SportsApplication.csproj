@@ -1,0 +1,91 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icon-basket.png" />
+    <None Remove="icon-magnifier.png" />
+    <None Remove="icon-minus-sign-of-a-line-in-horizontal-position.png" />
+    <None Remove="icon-pencil-tool.png" />
+    <None Remove="icon-plus.png" />
+    <None Remove="icon-quit.png" />
+    <None Remove="icon-user-profile.png" />
+    <None Remove="icon.ico" />
+    <None Remove="Images\B538G6.jpg" />
+    <None Remove="Images\D648N7.jpg" />
+    <None Remove="Images\D830R5.jpg" />
+    <None Remove="Images\E324U7.jpg" />
+    <None Remove="Images\F735B6.jpg" />
+    <None Remove="Images\F746E6.jpg" />
+    <None Remove="Images\F937G4.jpg" />
+    <None Remove="Images\G403T5.jpg" />
+    <None Remove="Images\G598Y6.jpg" />
+    <None Remove="Images\А112Т4.jpg" />
+    <None Remove="picture.png" />
+    <None Remove="redact-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.5.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.6.4" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.6.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon-basket.png" />
+    <Resource Include="icon-magnifier.png" />
+    <Resource Include="icon-minus-sign-of-a-line-in-horizontal-position.png" />
+    <Resource Include="icon-pencil-tool.png" />
+    <Resource Include="icon-plus.png" />
+    <Resource Include="icon-quit.png" />
+    <Resource Include="icon-user-profile.png" />
+    <Resource Include="icon.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\B538G6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\D648N7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\D830R5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\E324U7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\F735B6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\F746E6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\F937G4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\G403T5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\G598Y6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\А112Т4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="logo.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="picture.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="redact-icon.png" />
+  </ItemGroup>
+
+</Project>
