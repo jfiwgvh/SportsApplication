@@ -23,7 +23,7 @@
    Клонируйте репозиторий с помощью следующей команды:
 
    ```bash
-   git clone https://github.com/jfiwgvh/DishesApplication.git
+   git clone https://github.com/jfiwgvh/SportsApplication.git
    ```
 
    Вы также можете клонировать репозиторий через интерфейс Visual Studio. Для этого откройте Visual Studio, выберите _"Clone a repository"_ и введите URL репозитория .
